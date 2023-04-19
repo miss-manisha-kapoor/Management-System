@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.Top{
+  width: 1000px;
+  position: absolute;
+  top: 80%;
+  left: 17%;
+  margin: -45px 0 0 -46px;
+}
+.Top h1{
+  color: rgb(28, 28, 214);
+  font-family: math;
+  font-size: xxx-large;
+ 
+}
+.Top button{
+ border-radius: 2px solid black;
+ padding: 8px 5px;
+ margin: 0px 2px 9px 17px;
+ font-size: medium;
+ color: rgb(11, 1, 1);
+ background-color: rgb(106, 193, 255);
+ 
+}
+.inputdiv input::placeholder {
+  font-family: "Poppins", sans-serif;
+  opacity: 1; /* Firefox */
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+footer{
+position: fixed;
+bottom: 0;
+}
+@media  (max-height: 800px)
+{
+footer{
+  position: static;
+}
+header{
+  padding-top : 40px;
+}
+
+}
+
+.footer-distributed{
+padding: 40px 8px 6px 16px;
+background-color: black;
+}
+.footer-right{
+display: inline-block;
+vertical-align: top;
+width: 30%;
+}
+
+.footer-left{
+width: 30%;
+display: inline-block;
+vertical-align: top;
+}
+.footer-left img{
+
+height: 60px;
+width: 60px;
+border: 2px solid skyblue;
+border-radius: 1px;
+margin: -3px 41px -7px -1px;
+}
+
+.footer-distributed h3{
+color: white;
+font: normal36px 'cookie' , cursive;
+margin: 0;
+}
+
+.footer-distributed h3 span{
+color: red;
+}
+.footer-links{
+color:white;
+margin: 20px 0 12px;
+
+}
+
+.footer-links a {
+display: inline-block;
+line-height: 1.8;
+text-decoration: none;
+color: inherit;
+}
+
+.footer-name{
+color: white;
+font-size: 14px;
+font-weight: normal;
+margin: 0;
+padding: 10px 10px 10px 10px;
+}
+.footer-center{
+width: 35%;
+display: inline-block;
+vertical-align: top;
+}
+
+.footer-center i{
+background-color: brown;
+color: whitesmoke;
+font-size: 25px;
+width: 38px;
+height: 38px;
+border-radius: 50%;
+text-align: center;
+line-height: 42px;
+margin: 10px 15px;
+vertical-align: middle;
+font-size: 17px;
+line-height: 38px;
+}
+
+ .fa-envelope{
+font-size: 17px;
+line-height: 38px;
+
+}
+
+.footer-center p{
+display: inline-block;
+color: #55ACEE;
+vertical-align: middle;
+margin: 0;
+}
+
+.footer-center p span{
+display: block;
+font-weight: normal;
+font-size: 14px;
+line-height: 2;
+}
+
+.footer-center p a{
+color: orchid;
+text-decoration: none;
+}
+
+
+
+.footer-company-about{
+line-height: 20px;
+color: white;
+font-size: 13px;
+font-weight: normal;
+margin: 0;
+}
+
+.footer-company-about span{
+display: block;
+color: whitesmoke;
+font-size: 18px;
+font-weight: bold;
+margin-bottom: 20px;
+}
+.footer-icon{
+margin-top: 25px;
+}
+.footer-icon a{
+display: inline-block;
+width: 35px;
+height: 35px;
+cursor: pointer;
+
+border-radius: 2px;
+font-size: 20px;
+color: #ffff;
+text-align: center;
+line-height: 35px;
+margin-right: 3px;
+margin-bottom: 5px;
+}
+
+.footer-icons a:hover{
+background-color: blue;
+}
+
+.footer-links a:hover{
+color: purple;
+}
+.footer-name{
+color: white;
+background-color: black;
+}
+
+@media  (max-width: 880px){
+  .footer-distributed  {
+  display: block;
+  width: 100%;
+  margin-bottom: 40px;
+  text-align: center;
+  margin-left: 0;
+}
+.footer-links{
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.footer-center{
+  display: block;
+  width: 100%;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.footer-right{
+  display: block;
+  width: 100%;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.footer-center i {
+margin-left: 0;
+}
+}
+
+
+
+
+
+
+
+
+
